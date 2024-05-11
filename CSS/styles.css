@@ -138,14 +138,72 @@
 
 .parent{
     position: relative;
-    border: 1px solid #ccc;
+    top: 30px;
+   
 }
 
 .absolute-box{
+    border: 1px solid #ccc;
     background-color: beige;
     position: absolute;
     top: 30px;
     left: 10px;
+}
+
+/* flexbox */
+
+.flex-h-start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+.flex-h-end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+.flex-h-center {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+/* alinhamento vertical - align items */
+.flex-h-start {
+    display: flex;
+    align-items: start;
+    background-color: rgb(168, 105, 228);
+}
+
+.flex-h-end {
+    display: flex;
+    align-items: end;
+    background-color: rgb(168, 105, 228);
+    margin-top: 10px;
+}
+
+.flex-h-center {
+    display: flex;
+    align-items: center;
+    background-color: rgb(168, 105, 228);
+    margin-top: 10px;
+}
+
+.flex-h-stretch {
+    display: flex;
+    align-items: stretch;
+    background-color: rgb(168, 105, 228);
+    margin-top: 10px;
+}
+
+.flex-h-stretch>span{
+   background-color: aquamarine;
+   border: 1px solid #ccc;
 }
 
 
