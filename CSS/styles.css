@@ -115,6 +115,39 @@
     margin-top: 10px;
 }
 
+/* Position */
+.static-box{
+    background-color: aqua;
+    position: static;
+    height: 50px;
+}
+
+.relative-box{
+    background-color: bisque;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.fixed-box{
+    background-color: aquamarine;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.parent{
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.absolute-box{
+    background-color: beige;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
 
 
 
